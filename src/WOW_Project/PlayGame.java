@@ -29,7 +29,7 @@ public class PlayGame
 		while(!GUI.click) { try { Thread.sleep(200); } catch(InterruptedException e) { e.printStackTrace(); } }
 		String playerUsername = GUI.playerCommand();
 		GUI.println("Logging in.");
-		for(int i = 0; i <= 3; i++)
+		for(int i = 0; i <= 4; i++)
 		{
 			try { Thread.sleep(140); } catch (InterruptedException e) { e.printStackTrace(); }
 			GUI.print(".");
