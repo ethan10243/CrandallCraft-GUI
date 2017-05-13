@@ -32,7 +32,7 @@ public class PlayGame
 		for(int i = 0; i <= 3; i++)
 		{
 			try { Thread.sleep(140); } catch (InterruptedException e) { e.printStackTrace(); }
-			GUI.println(".");
+			GUI.print(".");
 		}
 		try { Thread.sleep(260); } catch (InterruptedException e) { e.printStackTrace(); }
 		if(playerUsername.equals("ADMIN_PLAYER")) playerTypeChoice0 = true;
