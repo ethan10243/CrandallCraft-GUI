@@ -28,7 +28,7 @@ public class PlayGame
 		GUI.println("What is your name?  \n");
 		while(!GUI.click) { try { Thread.sleep(200); } catch(InterruptedException e) { e.printStackTrace(); } }
 		String playerUsername = GUI.playerCommand();
-		GUI.println("Logging in.");
+		GUI.print("Logging in.");
 		for(int i = 0; i <= 4; i++)
 		{
 			try { Thread.sleep(140); } catch (InterruptedException e) { e.printStackTrace(); }
